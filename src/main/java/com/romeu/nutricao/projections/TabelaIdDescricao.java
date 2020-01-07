@@ -1,7 +1,7 @@
-package com.romeu.nutricao.models.dto;
+package com.romeu.nutricao.projections;
 
 public interface TabelaIdDescricao {
 	
-	String getId();
+	int getId();
 	String getDescricao();
 }
